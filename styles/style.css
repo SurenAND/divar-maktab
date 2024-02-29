@@ -4,3 +4,15 @@
   padding: 0;
   user-select: none;
 }
+
+:root {
+  --product-headline-color: #636e72;
+}
+
+.products-headline {
+  padding-bottom: 0.8rem;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--product-headline-color);
+}
