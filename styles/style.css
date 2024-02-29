@@ -5,6 +5,75 @@
   user-select: none;
 }
 
+/* meno */
+article.sidebar {
+  direction: rtl;
+  margin: 10% 2%;
+}
+
+span.headermeno {
+  margin-right: 0.2%;
+  font-size: 0.9rem;
+  color: #7d7171;
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  color: #a1a1a1;
+  padding-top: 1%;
+}
+
+svg {
+  margin-left: 0.5%;
+}
+
+/* hr Design */
+hr {
+  width: 20%;
+  margin-top: 2%;
+}
+
+/* location and input location */
+article.location {
+  margin-top: 1%;
+}
+
+svg.bi.bi-arrow-down-short {
+  margin-bottom: 0.3%;
+  margin: 0;
+  margin-bottom: -0.2%;
+  display: none;
+}
+
+svg.bi.bi-arrow-up-short {
+  margin-bottom: 0.3%;
+  margin: 0;
+  margin-bottom: -0.2%;
+}
+
+.active {
+  rotate: 180deg;
+}
+
+.inputlocation.hide {
+  display: none;
+}
+
+input[type='text'] {
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: solid 0.5px #c2c2c2;
+  margin-top: 2%;
+  outline: none;
+}
+
+input[type='text']::placeholder {
+  color: #c2c2c2;
+}
 :root {
   --product-headline-color: #636e72;
   --product-border-color: #cfcfcf;
