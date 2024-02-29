@@ -131,3 +131,81 @@ input[type='text']::placeholder {
   border-radius: 4px;
   width: 136px;
 }
+
+
+.line{
+  margin-right: 10px;
+  background-color: #4f4e4e;
+    height: 1.5rem;
+    width: 1px;
+}
+
+
+.nav-bar__content{
+  box-shadow: -9px -13px 16px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.btn{
+  padding: 5px;
+  width: 6rem;
+  margin: 0 10px;
+  border: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn:hover{
+  background-color: #f5f2f2; 
+  border-radius: 5px;
+  transition: color .36s ease,background-color .36s ease,box-shadow .36s ease,border-color .36s ease,transform .36s ease;
+}
+.fontBold{
+  font-weight: bold; 
+}
+.searchBar{
+  width: 480px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputSearch{
+  border: 0;
+  padding-right: 30px;
+  width: 100%;
+  height: 40px;
+  background-color: #f5f2f2;
+  border-radius: 5px;
+}
+
+.iconSearch{
+  position: absolute;
+  right: 0;
+  width: 15px;
+  margin-right: 10px;
+}
+.flex{
+  display: flex;
+}
+.mr-auto{
+  margin-right: auto;
+}
+
+
+.btnRecord{
+  background-color: #a62626;
+  padding: 10px 15px;
+  color: white;
+  border: 0;
+  border-radius:5px;
+}
+.items-center{
+  align-items: center;
+}
+.direction{
+  direction: rtl;
+}
