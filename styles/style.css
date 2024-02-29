@@ -4,3 +4,40 @@
   padding: 0;
   user-select: none;
 }
+
+/* meno */
+article.sidebar {
+  direction: rtl;
+  margin: 10% 2%;
+}
+
+span.headermeno {
+  margin-right: 0.2%;
+  font-size: 0.9rem;
+  color: #7d7171;
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  color: #a1a1a1;
+  padding-top: 1%;
+}
+
+svg {
+  margin-left: 0.5%;
+}
+
+/* hr Design */
+hr {
+  width: 20%;
+  margin-top: 2%;
+}
+
+/* location and input location */
+article.location {
+  margin-top: 1%;
+}
