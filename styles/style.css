@@ -55,7 +55,11 @@ svg.bi.bi-arrow-up-short {
   margin-bottom: -0.2%;
 }
 
-.inputlocation {
+.active {
+  rotate: 180deg;
+}
+
+.inputlocation.hide {
   display: none;
 }
 
