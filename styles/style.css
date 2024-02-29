@@ -7,6 +7,7 @@
 
 :root {
   --product-headline-color: #636e72;
+  --product-border-color: #cfcfcf;
 }
 
 .products-headline {
@@ -15,4 +16,11 @@
   font-size: 0.75rem;
   font-weight: 400;
   color: var(--product-headline-color);
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid var(--product-border-color);
+  border-radius: 4px;
+  padding: 16px;
 }
