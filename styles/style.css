@@ -3,6 +3,13 @@
   margin: 0;
   padding: 0;
   user-select: none;
+  font-family: 'IRANSans';
+}
+
+@font-face {
+  font-family: 'IRANSans';
+  src: url(../assets/Font/IRANSans/Iranian\ Sans.woff) format('woff');
+  src: url(../assets/Font/IRANSans/Iranian\ Sans.woff2) format('woff2');
 }
 
 /* menu */
@@ -141,6 +148,7 @@ input[type="text"]::placeholder {
 }
 
 .nav-bar__content {
+  box-shadow: -9px -13px 16px 0px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
