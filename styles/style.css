@@ -12,13 +12,13 @@
   src: url(../assets/Font/IRANSans/Iranian\ Sans.woff2) format('woff2');
 }
 
-/* meno */
+/* menu */
 article.sidebar {
   direction: rtl;
   margin: 10% 2%;
 }
 
-span.headermeno {
+span.header-menu {
   margin-right: 0.2%;
   font-size: 0.9rem;
   color: #7d7171;
@@ -66,11 +66,11 @@ svg.bi.bi-arrow-up-short {
   rotate: 180deg;
 }
 
-.inputlocation.hide {
+.input-location.hide {
   display: none;
 }
 
-input[type='text'] {
+input[type="text"] {
   padding: 0.4rem;
   border-radius: 5px;
   border: solid 0.5px #c2c2c2;
@@ -78,9 +78,10 @@ input[type='text'] {
   outline: none;
 }
 
-input[type='text']::placeholder {
+input[type="text"]::placeholder {
   color: #c2c2c2;
 }
+
 :root {
   --product-headline-color: #636e72;
   --product-border-color: #cfcfcf;
@@ -106,7 +107,7 @@ input[type='text']::placeholder {
   flex-direction: column;
   justify-content: start;
   flex-grow: 1;
-  text-align: end;
+  text-align: start;
 }
 
 .product-title {
@@ -172,6 +173,7 @@ input[type='text']::placeholder {
 .fontBold {
   font-weight: bold;
 }
+
 .searchBar {
   width: 480px;
   position: relative;

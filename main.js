@@ -1,6 +1,6 @@
-const arrowUp = document.getElementById("arrowup");
-const iconLocation = document.getElementById("iconlocation");
-const inputLocation = document.getElementById("inputlocation");
+const arrowUp = document.getElementById("arrow-up");
+const iconLocation = document.getElementById("icon-location");
+const inputLocation = document.getElementById("input-location");
 iconLocation.addEventListener("click", arrowUpIcon);
 
 function arrowUpIcon() {
@@ -274,7 +274,7 @@ function renderProductsSection(data) {
 
     // appends
     productInfo.append(productTitle, productStatus, productPrice, productDate);
-    product.append(productImg, productInfo);
+    product.append(productInfo, productImg);
     productCol.append(product);
     productsSec.append(productCol);
   });
